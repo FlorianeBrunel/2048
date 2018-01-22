@@ -8,7 +8,7 @@ Created on Mon Jan 15 22:23:00 2018
 
 import numpy as np
 
-class grille :
+class Grille :
     """Classe deffinissant une grille de jeu"""
     
     def __init__(self):
@@ -50,5 +50,7 @@ class grille :
         self.plateau = np.transpose(self.plateau)
         self.down()
         self.plateau = np.transpose(self.plateau)
- 
- 
+
+
+if __name__=='__main__':
+    print("launched as main script!")
